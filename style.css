@@ -1,0 +1,70 @@
+*{
+   padding: 0;
+   margin: 0;
+    font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+
+.page-wrapper{
+    display: flex;
+    align-content: center;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+}
+
+h1,h2{
+    letter-spacing: 1px;
+}
+
+h1{
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.profile-pic{
+    width: 300px;
+    height: 300px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+a{
+    color: #2e2329;
+}
+
+.side2{
+    width: 40%;
+}
+
+.wrapper{
+    padding-bottom: 40px;
+}
+
+.card{
+    background-color: #f1f1f1;
+    color: rgb(0,0,0);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+.card2{
+    margin: 10px 10px 10px 0;
+}
+
+li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .page-wrapper, .side1, .side2{
+        width: 90%;
+    }
+}
